@@ -1,7 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import web from "../src/images/picture 4.jpg";
-const Common = (props) => {
+
+
+
+const common = (props) => {
     return (
         <>
         <section id="header" className="d-flex align-items-center">
@@ -22,7 +25,7 @@ const Common = (props) => {
                                       Get Started
                                       </a> */}
 
- <NavLink to={props.visit} class="btn btn-primary">{props.btname} </NavLink> 
+ <NavLink to={props.visit} className="btn btn-primary">{props.btname} </NavLink> 
                                       
                              </div>
                          </div>
@@ -41,4 +44,4 @@ const Common = (props) => {
     );
 };
 
-export default Common;
+export default common;
